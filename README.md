@@ -9,7 +9,7 @@
 
 **[AI-ingest](https://github.com/UllasSHR/AI-ingest)** — a personal filter for the AI firehose. Scrapes sources daily, scores items against my interests with an LLM, and serves one morning page with the 3–5 things that actually matter to what I'm building. Node.js scraper, LLM scoring, GitHub Actions cron.
 
-**Breathe** — a two-person health ritual app (Next.js, Supabase, Google Fit OAuth, push/email, cron). My first finished, deployed product.
+**[Breathe](https://github.com/UllasSHR/Breathe)** — a two-person health ritual app (Next.js, Supabase, Google Fit OAuth, push/email, cron). My first finished, deployed product.
 
 ## How I work
 
