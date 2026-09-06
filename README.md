@@ -1,24 +1,21 @@
-# Hi, I'm Ullas
+# Hi, I’m Ullas.
 
-19-year-old engineering student in India, learning applied AI by shipping real things. I build small, useful tools with AI coding agents — and I make sure I can explain every important line in plain English before I call it done.
+I’m a CS student interested in how applications keep shared data correct when requests compete, connections drop, or servers restart.
 
-## What I've shipped
+I learn by building small experiments, tracing how the code works, and documenting the results.
 
-**[LaunchGuard](https://github.com/UllasSHR/LaunchGuard)** — a launch-readiness scanner for AI-built SaaS apps. Paste a public GitHub repo URL, get a plain-English report of launch risks: exposed secrets, missing API auth, unverified Stripe webhooks, AI cost-control gaps. TypeScript, Next.js, with a fixture-based eval harness so scanner changes can't silently regress.
-→ Live: [launchguard-v1.vercel.app](https://launchguard-v1.vercel.app)
+### What I’m working on
 
-**[AI-ingest](https://github.com/UllasSHR/AI-ingest)** — a personal filter for the AI firehose. Scrapes sources daily, scores items against my interests with an LLM, and serves one morning page with the 3–5 things that actually matter to what I'm building. Node.js scraper, LLM scoring, GitHub Actions cron.
+**[Last Seat Lab](https://github.com/UllasSHR/last-seat-lab)**  
+A single-seat reservation app for exploring concurrency, authorization, and realtime synchronization with SQLite and SpacetimeDB. The experiments cover competing reservations, failed writes, restart recovery, and keeping multiple clients in sync.
 
-**[Breathe](https://github.com/UllasSHR/Breathe)** — a two-person health ritual app (Next.js, Supabase, Google Fit OAuth, push/email, cron). My first finished, deployed product.
+**[LaunchGuard](https://github.com/UllasSHR/LaunchGuard)**  
+A tool that checks SaaS projects for common launch risks and presents findings in plain English. It uses heuristic checks to flag potential issues for review.
 
-## How I work
+### Currently learning
 
-- Build the smallest useful version, deploy it, verify the real side effect — HTTP 200 is not proof.
-- Eval harnesses over vibes: known-bad fixtures catch regressions before users do.
-- AI agents (Claude Code, Codex) write a lot of my first drafts; understanding and verifying them is my job.
+Database transactions, backend authorization, and how realtime updates travel from the server to the UI.
 
-## Currently
+### Connect
 
-- Getting LaunchGuard in front of real builders (free launch-risk scans — DM me)
-- Contributing to open-source AI tooling
-- Writing about what breaks along the way: [@UllasSHR on X](https://x.com/UllasSHR)
+Find me on [X](https://x.com/UllasSHR).
